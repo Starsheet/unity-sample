@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Splash.uss?fileID=7433441132597879392&amp;guid=d49f2650dbf2e43069157b649a5adf38&amp;type=3#Splash" />
+    <ui:VisualElement name="Container" style="width: 100%; height: 100%; background-color: rgb(35, 31, 32);">
+        <ui:Label text="Splash Screen" display-tooltip-when-elided="true" style="left: 20px; top: 20px; position: relative; color: rgb(255, 255, 255); font-size: 100px; -unity-font-style: bold;" />
+        <ui:VisualElement style="align-items: center; top: 400px;">
+            <ui:Button text="Load Remote Starsheet Data" display-tooltip-when-elided="true" name="Download" />
+            <ui:Label display-tooltip-when-elided="true" name="Status" style="margin-right: 100px; margin-left: 100px; width: 500px; margin-top: 50px; font-size: 18px; -unity-paragraph-spacing: 10px;" />
+            <ui:Button text="Go To Main Menu" display-tooltip-when-elided="true" name="GoToMainMenu" style="display: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

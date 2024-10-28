@@ -1,0 +1,55 @@
+.title {
+    font-size: 100px;
+    -unity-font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.news-item {
+    width: 500px;
+    height: 150px;
+    opacity: 0.8;
+    background-color: rgb(60, 60, 60);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.news-title {
+    position: absolute;
+    left: 90px;
+    top: 10px;
+    font-size: 20px;
+    -unity-font-style: bold;
+    overflow: hidden;
+    width: 400px;
+    color: rgb(255, 255, 255);
+}
+
+.news-body {
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    width: 400px;
+    height: 50px;
+    white-space: normal;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.news-item Button {
+    font-size: 16px;
+    width: 150px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.news-icon {
+    left: 10px;
+    top: 10px;
+    width: 64px;
+    height: 64px;
+}
+
+.root {
+}

@@ -1,0 +1,18 @@
+.title {
+    -unity-text-align: upper-center;
+    font-size: 32px;
+}
+
+#Container * {
+    color: rgb(255, 255, 255);
+}
+
+Button {
+    font-size: 18px;
+    -unity-font-style: bold;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 300px;
+}

@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=7e3e5a8aba3764ea68fd63eb629ca472&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Container" class="root" style="width: 100%; height: 100%; background-color: rgb(35, 31, 32);">
+        <ui:Label text="Main Menu" display-tooltip-when-elided="true" name="Title" class="title" style="width: 66%; -unity-font-style: bold; margin-top: 20px; margin-left: 20px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="NewsContainer" style="right: 20px; bottom: 20px; position: absolute; width: 500px; height: 100%; flex-direction: column-reverse;">
+        <ui:VisualElement name="NewsItem" style="display: none;">
+            <ui:VisualElement class="news-item" style="margin-bottom: 0;">
+                <ui:VisualElement name="Icon" class="news-icon" style="-unity-background-scale-mode: scale-to-fit; background-color: rgba(236, 1, 1, 255);" />
+                <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus ex in congue rhoncus." display-tooltip-when-elided="true" class="news-title" />
+                <ui:Label text="Aliquam mattis iaculis dictum. Aenean placerat varius feugiat. Donec ornare dolor at nisl ornare finibus. Fusce sed velit iaculis, consectetur diam ut, commodo quam. Vestibulum finibus aliquet orci ac pharetra. Pellentesque nec dapibus magna." display-tooltip-when-elided="true" class="news-body" />
+                <ui:Button text="Hello" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
