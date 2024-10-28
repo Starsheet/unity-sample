@@ -8,9 +8,13 @@ This example demonstrates the following:
 * Data responses are cached locally. Uses `If-None-Match` on subsequent requests to avoid redownloading the same data
 * Images are cached. Only new/changed images will be downloaded even if data is updated
 
-Please note the following limitations of th sample project: 
+Please note the following limitations of the sample project: 
 
-* Old images are not removed from the cache when they are no longer references. 
+* Old images are not removed from the cache when they are no longer references.
+
+# Overview
+
+The Starsheet download is initiated in [Assets/Scripts/Splash.cs](https://github.com/Starsheet/unity-sample/blob/main/Assets/Scripts/Splash.cs), which calls [StarsheetDownloader](https://github.com/Starsheet/unity-sample/blob/main/Assets/Scripts/Starsheet/StarsheetDownloader.cs)
 
 ## Dependencies
 
