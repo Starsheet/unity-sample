@@ -10,7 +10,7 @@ This example demonstrates the following:
 
 Please note the following limitations of the sample project: 
 
-* Old images are not removed from the cache when they are no longer references.
+* Old images are not removed from the cache when they are no longer referenced in the data.
 
 # Overview
 
